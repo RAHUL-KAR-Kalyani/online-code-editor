@@ -3,9 +3,7 @@ import './Header.css';  // Optional CSS file for styling
 
 function Header() {
 	return (
-		<header className="header">
-			<h1>Online Code Editor</h1>
-		</header>
+		<p className='text-center fs-5'>Online Code Editor</p>
 	);
 }
 export default Header;

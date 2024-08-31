@@ -10,8 +10,8 @@ function App() {
 
 	return (
 		<>
-			{/* <Header/> */}
-			<p className='text-center fs-5'>Online Code Editor</p>
+			<Header/>
+			{/* <p className='text-center fs-5'>Online Code Editor</p> */}
 			<div className="pane top-pane">
 				<Editor language="xml" displayName="HTML" value={html} onChange={setHtml} displayIcon="fa-brands fa-html5 col-6 ps-3"/>
 				<Editor language="css" displayName="CSS" value={css} onChange={setCss} displayIcon="fa-brands fa-css3-alt col-6 ps-3"/>
